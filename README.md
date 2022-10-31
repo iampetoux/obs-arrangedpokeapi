@@ -7,3 +7,7 @@ comme contrainte que l’API ne doit pas diffuser le lien direct des images au u
 Que feriez-vous pour améliorer les performances du WS ?
 
 Afin de ne pas fournir le lien de l'image directement à l'utilisateur et dans un contexte de performances, on pourrait créer une route sur notre API qui retournera l'image sans que le client puisse accéder au lien originel.
+
+Bonus :
+Authentification par utilisateur (Passport)
+Pagination (triche par manque de temps, récupération des queryString des propriétés next et previous renvoyées par l'APi)
